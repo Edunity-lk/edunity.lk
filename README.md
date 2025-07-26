@@ -1,15 +1,12 @@
 # Eduity.lk
 
 <!-- Change Version Number  -->
-![version](https://img.shields.io/badge/version-1.1.0-blue.svg) 
 <!-- Licence File add Here  -->
-![license](https://img.shields.io/badge/license-MIT-blue.svg) 
 <!--Open Issue Indicator -->
-<a href="https://github.com/Edunity-lk/edunity.lk/issues?q=is%3Aopen+is%3Aissue" target="_blank">![GitHub issues open](https://img.shields.io/github/issues/Edunity-lk/edunity.lk.svg)</a> 
 <!-- Issue Closed Indicator -->
-<a href="https://github.com/Edunity-lk/edunity.lk/issues?q=is%3Aissue+is%3Aclosed" target="_blank">![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/Edunity-lk/edunity.lk.svg)</a> 
 <!-- Discord Link  --> 
-<a href="#" target="_blank">![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)</a>
+
+![version](https://img.shields.io/badge/version-1.1.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) <a href="https://github.com/Edunity-lk/edunity.lk/issues?q=is%3Aopen+is%3Aissue" target="_blank">![GitHub issues open](https://img.shields.io/github/issues/Edunity-lk/edunity.lk.svg)</a> <a href="https://github.com/Edunity-lk/edunity.lk/issues?q=is%3Aissue+is%3Aclosed" target="_blank">![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/Edunity-lk/edunity.lk.svg)</a> <a href="#" target="_blank">![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)</a>
 
 <!-- Add Our Own Page Images  -->
 ![Eduity NextJS](https://github.com/creativetimofficial/public-assets/blob/master/notus-nextjs/notus-nextjs.jpg?raw=true)
@@ -138,7 +135,6 @@ eduity.lk/
 ### Environment Setup
 
 1. Copy environment variables:
-
    ```bash
    cp .env.example .env.local
    ```
@@ -175,4 +171,4 @@ For support and questions:
 
 ---
 
-Made with ❤️ by the Eduity Team
+**Made with ❤️ by the Eduity Team**
