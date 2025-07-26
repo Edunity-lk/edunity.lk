@@ -1,5 +1,23 @@
 import React from "react";
-import Chart from "chart.js";
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend,
+} from "chart.js";
+
+// Register Chart.js components
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend
+);
 
 export default function CardBarChart() {
   React.useEffect(() => {
@@ -96,7 +114,7 @@ export default function CardBarChart() {
       },
     };
     let ctx = document.getElementById("bar-chart").getContext("2d");
-    window.myBar = new Chart(ctx, config);
+    window.myBar = new ChartJS(ctx, config);
   }, []);
   return (
     <>

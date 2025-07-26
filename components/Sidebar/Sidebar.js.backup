@@ -86,29 +86,31 @@ export default function Sidebar() {
 
             <ul className="md:flex-col md:min-w-full flex flex-col list-none">
               <li className="items-center">
-                <Link 
-                  href="/admin/dashboard"
-                  className={
-                    "text-xs uppercase py-3 font-bold block " +
-                    (router.pathname.indexOf("/admin/dashboard") !== -1
-                      ? "text-lightBlue-500 hover:text-lightBlue-600"
-                      : "text-blueGray-700 hover:text-blueGray-500")
-                  }
-                >
-                  <i
+                <Link href="/admin/dashboard">
+                  <a
+                    href="#pablo"
                     className={
-                      "fas fa-tv mr-2 text-sm " +
+                      "text-xs uppercase py-3 font-bold block " +
                       (router.pathname.indexOf("/admin/dashboard") !== -1
-                        ? "opacity-75"
-                        : "text-blueGray-300")
+                        ? "text-lightBlue-500 hover:text-lightBlue-600"
+                        : "text-blueGray-700 hover:text-blueGray-500")
                     }
-                  ></i>{" "}
-                  Dashboard
+                  >
+                    <i
+                      className={
+                        "fas fa-tv mr-2 text-sm " +
+                        (router.pathname.indexOf("/admin/dashboard") !== -1
+                          ? "opacity-75"
+                          : "text-blueGray-300")
+                      }
+                    ></i>{" "}
+                    Dashboard
+                  </a>
                 </Link>
               </li>
 
               <li className="items-center">
-                <Link legacyBehavior href="/admin/settings">
+                <Link href="/admin/settings">
                   <a
                     href="#pablo"
                     className={
@@ -132,7 +134,7 @@ export default function Sidebar() {
               </li>
 
               <li className="items-center">
-                <Link legacyBehavior href="/admin/tables">
+                <Link href="/admin/tables">
                   <a
                     href="#pablo"
                     className={
@@ -156,7 +158,7 @@ export default function Sidebar() {
               </li>
 
               <li className="items-center">
-                <Link legacyBehavior href="/admin/maps">
+                <Link href="/admin/maps">
                   <a
                     href="#pablo"
                     className={
@@ -190,7 +192,7 @@ export default function Sidebar() {
 
             <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
               <li className="items-center">
-                <Link legacyBehavior href="/auth/login">
+                <Link href="/auth/login">
                   <a
                     href="#pablo"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
@@ -202,7 +204,7 @@ export default function Sidebar() {
               </li>
 
               <li className="items-center">
-                <Link legacyBehavior href="/auth/register">
+                <Link href="/auth/register">
                   <a
                     href="#pablo"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
@@ -224,7 +226,7 @@ export default function Sidebar() {
 
             <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-4">
               <li className="items-center">
-                <Link legacyBehavior href="/landing">
+                <Link href="/landing">
                   <a
                     href="#pablo"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
@@ -236,7 +238,7 @@ export default function Sidebar() {
               </li>
 
               <li className="items-center">
-                <Link legacyBehavior href="/profile">
+                <Link href="/profile">
                   <a
                     href="#pablo"
                     className="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block"
